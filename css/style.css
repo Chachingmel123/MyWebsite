@@ -1,0 +1,91 @@
+
+html, body, {
+  height: 100%!important;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.blackmail{
+background-image: url(../images/photo-1422898645387-1db58c9dea01.jpg);	
+background-size:cover;	
+width:100%;	
+height:800px;
+background-attachment: fixed;
+position: relative;
+z-index: 3;}
+
+
+h1{font-family: 'Fjalla One', sans-serif;
+text-align: center;	
+
+}
+	
+h2{font-family: 'Indie Flower', cursive;}
+nav li {
+	display: inline-block;
+	border: 2px;
+	border-color: green;
+	border-style:solid;
+    margin-right: 10px
+
+
+}
+
+.main {
+    	text-align: center;
+    	width: 55%;
+    	float: left;
+    	position: relative;
+    	clear: right;
+
+    }
+.cool-chick {
+
+width: 35%;
+float: right;
+
+}
+
+img{ width: 100%}
+footer {clear:right;}
+
+.video-container {
+   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/35376/bg-3.jpg);//fallback-image while video loads
+  background-size: cover;
+	display: block;
+	width: 100%;
+	height: 100%;
+  position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	-webkit-backface-visibility: hidden;
+}
+
+.touch .video-container {
+	display: none;
+}
+
+#bg-video {
+  display:block;
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.lt-ie8 .video-container {
+	display: none;
+}
+.container {
+	position: relative;
+	width: 80%;
+	margin: auto;
+	background-color: #fff;
+}
